@@ -19,7 +19,7 @@ import { Pattern } from "@/types/pattern";
 export default function Home() {
   const [isUploadModalOpen, setIsUploadModalOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("merchant");
-  const [merchantParams, setMerchantParams] = useState<SearchMerchantsDto>({
+  const [merchantParams,] = useState<SearchMerchantsDto>({
     page: 1,
     limit: 10,
     isActive: true

@@ -40,6 +40,7 @@ export function UploadModal({
         description: `Processed ${result.processedCount} transactions`,
       });
       onClose();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
     
     }
